@@ -43,8 +43,6 @@ export default class Dashboard extends React.Component {
 	}
 
 	handleSaveAndPreview = (e) => {
-		e.preventDefault();
-		
 		localStorage.setItem(
 			"tshirtColour",
 			this.state.tshirtColour
