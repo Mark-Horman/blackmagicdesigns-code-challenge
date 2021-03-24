@@ -1,0 +1,12 @@
+/* Visually hidden content for assistive technologies (screen readers) only */
+/* this needs to be a global class rather than a mixin/variable so it can be dynamically added to dom elements */
+.sr-only {
+    position: absolute !important;
+    clip: rect(0, 0, 0, 0);
+    margin: -1px;
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}

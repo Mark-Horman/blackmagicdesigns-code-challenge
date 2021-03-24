@@ -1,0 +1,32 @@
+.tshirt-colour {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tshirt-colour button {
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    /*outline:none;*/
+    height: 50px;
+    width: 50px;
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
+}
+.grey {
+    background-color: grey;
+}
+.blue {
+    background-color: blue;
+}
+.red {
+    background-color: red;
+}

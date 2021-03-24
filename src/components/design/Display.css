@@ -1,0 +1,25 @@
+.tshirt-image {
+    position: relative;
+}
+
+.tshirt-text {
+    position: absolute;
+    top: 150px;
+    left: 210px;
+}
+
+.tshirt-text p {
+    font-family: Impact, Charcoal, sans-serif;
+    color: #fff;
+}
+
+.lowerText {
+    margin-top: 10px;
+}
+
+.drawing-wrapper div {
+    opacity: 30%;
+}
+
+
+
